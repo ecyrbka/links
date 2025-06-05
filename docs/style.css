@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Jacquard+12:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Jacquard+12&display=swap');
 
 :root {
     --bgColor: #223344;
     --bgColor2: #090a0f;
     --accentColor: #FFF;
-    --font: 'Jacquard 12', normal;
+    --font: 'Jacquard 12', cursive;
     --delay: .3s;
 }
 
@@ -49,7 +49,7 @@ body {
     max-width: 675px;
     width: auto;
     display: block;
-    margin: 37px auto;
+    margin: 27px auto;
 }
 
 .link {
