@@ -35,7 +35,7 @@ body {
 
 #userName {
     color: var(--accentColor);
-    font-size: 1rem;
+    font-size: 3rem;
     font-weight: bold;
     line-height: 1.25;
     display: block;
@@ -58,7 +58,7 @@ body {
     color: var(--accentColor);
     border: solid var(--accentColor) 2px;
     border-radius: 11px;
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
     display: block;
     margin-left: 11px;
@@ -86,7 +86,7 @@ body {
     position: relative;
     padding-bottom: 20px;
     color: var(--accentColor);
-    font-size: 1rem;
+    font-size: 2rem;
     display: block;
     font-family: var(--font);
     width: 100%;
@@ -179,7 +179,7 @@ body {
     color: var(--accentColor);
     padding: 20px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .popup-photo {
