@@ -4,7 +4,7 @@
     --bgColor: #223344;
     --bgColor2: #090a0f;
     --accentColor: #FFF;
-    --font: 'Jacquard 12', cursive;
+    --font: 'Jacquard 12', system-ui;
     --delay: .3s;
 }
 
