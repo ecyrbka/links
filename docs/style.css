@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Jersey+20&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Jersey+10&display=swap');
 
 :root {
     --bgColor: #223344;
     --bgColor2: #090a0f;
     --accentColor: #FFF;
-    --font: 'Jersey 20', system-ui;
+    --font: 'Jersey 10', system-ui;
     --delay: .3s;
 }
 
@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     font-family: var(--font);
     background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
-    background-image: url('https://bit.ly/45DPZAT');
+    background-image: url('https://lh3.google.com/u/0/d/1KsbqaFov6djU3Bl4Pu3DMaz_xJipbzoS=w2880-h1555-iv1?auditContext=forDisplay');
     /* background-image: url('https://bit.ly/45DPZAT'); */
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
