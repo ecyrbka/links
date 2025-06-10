@@ -13,7 +13,6 @@ body {
     padding: 0;
     min-height: 100vh;
     font-family: var(--font);
-    background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
     background-image: url('https://lh3.google.com/u/0/d/1KsbqaFov6djU3Bl4Pu3DMaz_xJipbzoS=w2880-h1555-iv1?auditContext=forDisplay');
     /* background-image: url('https://bit.ly/45DPZAT'); */
     opacity: 0;
