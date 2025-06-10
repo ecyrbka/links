@@ -13,7 +13,7 @@ body {
     padding: 0;
     min-height: 100vh;
     font-family: var(--font);
-    background-image: url('https://i.postimg.cc/ZqqcDfyx/tomoko1.png');
+    background-image: url('https://i.postimg.cc/P5XzGSjD/tomoko2.png');
     /* background-image: url('https://bit.ly/45DPZAT'); */
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
