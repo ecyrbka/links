@@ -13,16 +13,29 @@
   </head>
 
   <body>
-    <audio id="bg-music" autoplay loop preload="auto">
-      <source src="BG-miraidempa.mp3" type="audio/mpeg">
+    <audio id="bg-music" loop preload="auto">
+        <source src="BG-miraidempa.mp3" type="audio/mpeg">
     </audio>
-    <button onclick="document.getElementById('bg-music').play()">play music</button>
+
+    <script>
+        const audio = document.getElementById('bg-music');
+
+        function playOnInteraction() {
+            audio.play().catch(e => console.log('Audio blocked:', e));
+            // Remove listeners after first interaction
+            window.removeEventListener('scroll', playOnInteraction);
+            window.removeEventListener('click', playOnInteraction);
+            window.removeEventListener('keydown', playOnInteraction);
+            window.removeEventListener('touchstart', playOnInteraction);
+        }
+
+        // Listen for multiple types of interaction
+        window.addEventListener('scroll', playOnInteraction);
+        window.addEventListener('click', playOnInteraction);
+        window.addEventListener('keydown', playOnInteraction);
+        window.addEventListener('touchstart', playOnInteraction);
+    </script>
     <!-- Parallax Pixel Background Animation -->
-    <section class="animated-background">
-      <div id="stars1"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
-    </section>
     <!-- End of Parallax Pixel Background Animation -->
 
     <a id="profilePicture" href="#popup">
@@ -78,7 +91,7 @@
     </div>
 
     <div id="hashtag">
-      #GoonToFuta
+      #CVNNY
     </div>
 
   </body>
