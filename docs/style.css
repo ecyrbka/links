@@ -20,6 +20,7 @@ body {
     font-family: var(--font);
     background-image: url('https://raw.githubusercontent.com/ecyrbka/links/refs/heads/my-feature/docs/tomoko2.png');
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     opacity: 0;
