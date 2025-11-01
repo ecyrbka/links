@@ -18,7 +18,7 @@ body {
     padding: 0;
     min-height: 100vh;
     font-family: var(--font);
-    font-size: 0.9rem;
+    font-size: 17px;
     background-image: url('https://raw.githubusercontent.com/ecyrbka/links/refs/heads/my-feature/docs/tomoko2.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
